@@ -45,6 +45,14 @@ task add Stuff
 
 Note that running it on your "normal" host, as your normal user, is more convenient and the recommended way. This is useful only if you cannot run it on your machine.
 
+## Optional: Docker
+
+Build docker image:
+
+```
+docker build -t tasksched .
+```
+
 ## How to get the best Chrome new tab page ever
 
 point this extension:
