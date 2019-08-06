@@ -51,6 +51,7 @@ Build docker image:
 
 ```
 docker build -t tasksched .
+docker run -it --rm -p 5000:5000 -v ~/.config/taskwarrior:/root/.config/taskwarrior -e TASKRC=/root/.config/taskwarrior/taskrc tasksched:latest
 ```
 
 ## How to get the best Chrome new tab page ever
