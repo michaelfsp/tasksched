@@ -7,7 +7,7 @@
   "repository": "https://github.com/AnotherKamila/tasksched.git",
   "dependencies": {
     "cors": "^2.8.4",
-    "elm": "0.18.*",
+    "elm": "latest-0.18.0",
     "express": "^4.16.2",
     "express-http-proxy": "^1.1.0"
   }
